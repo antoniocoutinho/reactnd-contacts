@@ -61,7 +61,7 @@ body, .app {
   padding: 10px;
   text-transform: uppercase;
   font-size: inherit;
-  border: none;
+  border: 10px;
   outline: 0;
 }
 
@@ -176,4 +176,16 @@ body, .app {
   vertical-align: middle;
   cursor: pointer;
   outline: none;
+}
+/* CreateContact */
+
+.close-create-contact {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url('./icons/arrow-back.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 0;
 }
