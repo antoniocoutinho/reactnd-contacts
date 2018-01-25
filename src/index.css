@@ -61,7 +61,7 @@ body, .app {
   padding: 10px;
   text-transform: uppercase;
   font-size: inherit;
-  border: 10px;
+  border: none;
   outline: 0;
 }
 
