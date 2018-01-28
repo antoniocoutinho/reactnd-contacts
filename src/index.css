@@ -19,7 +19,16 @@ body, .app {
 
 /* CreateContact */
 
-
+.close-create-contact {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url('./icons/arrow-back.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 0;
+}
 
 .create-contact-form {
   padding: 20px;
@@ -176,16 +185,4 @@ body, .app {
   vertical-align: middle;
   cursor: pointer;
   outline: none;
-}
-/* CreateContact */
-
-.close-create-contact {
-  display: block;
-  width: 60px;
-  height: 60px;
-  background-image: url('./icons/arrow-back.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 30px;
-  font-size: 0;
 }
